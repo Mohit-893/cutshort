@@ -17,8 +17,8 @@ function App() {
       <div className='maindiv'>
       <Router>
           <Routes>
-            <Route path="" element={<Page1/>}></Route>
-            <Route path="/1" element={<Page1 />}></Route>
+            <Route path="/1" element={<Page1/>}></Route>
+            <Route index element={<Page1 />}></Route>
             <Route path="/2" element={<Page2 />}></Route>
             <Route path="/3" element={<Page3 />}></Route>
             <Route path="/4" element={<Page4 />}></Route>

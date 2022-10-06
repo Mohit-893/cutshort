@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import ProgressBar from './ProgressBar';
 import HeadText from './HeadText';
 import Button from './Button';
-import logo from './'
+
+
 
 class Page3 extends Component {
     render() {
@@ -15,14 +16,14 @@ class Page3 extends Component {
                         </div>
                         <div className='d-flex hover'>
                             <div className='divi container'>
-                                <img src='.logo.svg' alt='' style={{height:'10px',width:'10px'}}></img>
+                                <img src='https://w7.pngwing.com/pngs/405/50/png-transparent-computer-icons-web-development-user-business-search-engine-optimization-myself-child-face-search-engine-optimization-thumbnail.png' alt='' style={{height:'45px',width:'45px',margin:'5px'}}></img>
                                 <h4>For myself</h4>
                                 <span>Write better. Think</span><br/>
                                 <span>more clearly. Stay</span><br/>
                                 <span>organized.</span>
                             </div>
                             <div className='divi container'>
-                            <img src='' alt=''></img>
+                            <img src='https://w7.pngwing.com/pngs/413/180/png-transparent-computer-icons-team-team-miscellaneous-silhouette-black-thumbnail.png' alt='' style={{height:'45px',width:'45px',margin:'5px'}}></img>
                             <h3>With my team</h3>
                             <span>Wikis, docs, tasks &amp;</span><br/>
                             <span>projects, all in one</span><br/>

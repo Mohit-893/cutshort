@@ -93,7 +93,7 @@ Link {
 .divi {
   height: 210px;
   width: 250px;
-  border: 1px solid black;
+  border:1px solid black;
   margin:5px 20px;
   text-align: left;
 }
@@ -101,6 +101,7 @@ Link {
 .hover :hover {
   border:2px solid purple;
 }
+
 
 .progress1 {
   background-color: purple;
@@ -113,6 +114,22 @@ Link {
   width: 25%;
   height:5px;
   margin-top: 15px;
+}
+
+.progress4 {
+  background-color: #d3d3d3;
+  width: 40%;
+  height: 45px;
+  border: 1px solid black;
+  margin: 0px;
+}
+
+.progress3 {
+  background-color: white;
+  width: 100%;
+  height:50px;
+  margin-top: 5px;
+  /* border:1px solid black; */
 }
 
 .border2 {
